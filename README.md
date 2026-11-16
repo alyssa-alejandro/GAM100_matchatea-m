@@ -1,40 +1,42 @@
--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+# Chai & Chain
 
-  cccccc   hh               aa      &&&        cccccc   hh               aa
- ccc   cc  hh                      &   &      ccc   cc  hh                  
- cc        hhhhh    aaaa    aa      &&&       cc        hhhhh    aaaa    aa  nnnnn
- cc        hh  hh  aa   a   aa     &   & &    cc        hh  hh  aa   a   aa  nn  nn
- ccc   cc  hh  hh  aa   a   aa    &     &     ccc   cc  hh  hh  aa   a   aa  nn   n
-  cccccc   hh  hh   aaaa a  aa     &&&&&  &    cccccc   hh  hh   aaaa a  aa  nn   n
+A cooperative two-player game developed by **Matcha Tea-m** for **CSD1401**, DigiPen Institute of Technology, Fall 2024.
 
--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+## About the Game
 
-Team Name: Matcha Tea-m
-Game Name: Chai & Chain
+Chai & Chain is a two-player cooperative game where players work together to interact with ingredient kiosks, collect ingredients, and complete objectives.
 
-Class:     CSD1401
-Section:   A
-Year:      Fall 2024
+## Controls
 
-Team Members
-  Alyssa Nicole Cerrero Alejandro         alejandro.a@digipen.edu
-  Chan Qi Ying                            q.chan@digipen.edu
-  Low Jia En                              jiaen.low@digipen.edu
-  Claire Cheong Kuan Wai                  c.cheong@digipen.edu
-  Ng Woon Ning                            woonning.ng@digipen.edu
+| Action | Player 1 | Player 2 |
+|---|---|---|
+| Movement | W, A, S, D | Arrow Keys |
+| Interact | Q | / |
+| Ingredients | Throw ingredients down | Pick up ingredients from the ground and place them into trash cans/cups |
 
--------------------------------------------------------------------------------------
-Controls
+## Debug Controls
 
-Player 1
-  WASD               Move (up, left, down, right)
-  Q                  Interact w/ ingredient kiosks, throw ingredients down
+| Shortcut | Action |
+|---|---|
+| Ctrl + F1 | Force win current level |
+| Ctrl + F2 | Force lose current level |
+| Ctrl + F3 | Force complete entire game |
 
-Player 2
-  Arrow Keys         Move (up, left, down, right)
-  /                  Interact w/ ingredients on ground, put ingredients in trashcan/cups
+## Project Information
 
-Debug Controls
-  CTRL + F1          Force win current level
-  CTRL + F2          Force lose current level
-  CTRL + F3          Force complete entire game
+- **Team:** Matcha Tea-m
+- **Course:** CSD1401
+- **Semester:** Fall 2024
+- **Institution:** DigiPen Institute of Technology
+
+## How to Play
+
+The game supports two players using the same keyboard. Both players must cooperate to complete the game's objectives.
+
+## Development
+
+Built in C/C++ using the CProcessing framework.
+
+## Team
+
+Developed by Matcha Tea-m, a five-member student team.
